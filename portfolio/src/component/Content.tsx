@@ -4,7 +4,7 @@ import { ExternalLink, Github } from 'lucide-react'
 import { motion } from 'motion/react'
 import AboutContent from './about/Aboutontent'
 import SkillsContent from './skills/SkillsContent'
-import ContactContent from './contact/contactContent'
+import ContactContent from './contact/ContactContent'
 
 const Content: React.FC <{ activeTab: string }> = ({activeTab}) => {
 
