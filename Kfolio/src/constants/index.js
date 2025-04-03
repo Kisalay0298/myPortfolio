@@ -1,7 +1,7 @@
-import project1 from "../assets/projects/project-1.webp";
-import project2 from "../assets/projects/project-2.webp";
-import project3 from "../assets/projects/project-3.webp";
-import project4 from "../assets/projects/project-4.webp";
+import project1 from '../../../portfolio/public/images/Blogminia Page.png';
+import project2 from "../../../portfolio/public/images/voting-app.png";
+import project3 from "../../../portfolio/public/images/hospital-management.png";
+import project4 from "../../../portfolio/public/images/online code editor.png";
 
 export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 5 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
@@ -14,6 +14,8 @@ export const EXPERIENCES = [
     company: "Google Inc.",
     description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
     technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
+    githubUrl: "https://github.com/Kisalay0298/voting-application",
+    liveUrl: "https://voting-app-kmxp.onrender.com/",
   },
   {
     year: "2022 - 2023",
@@ -21,6 +23,8 @@ export const EXPERIENCES = [
     company: "Adobe",
     description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
     technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
+    githubUrl: "https://github.com/Kisalay0298/voting-application",
+    liveUrl: "https://voting-app-kmxp.onrender.com/",
   },
   {
     year: "2021 - 2022",
@@ -28,6 +32,8 @@ export const EXPERIENCES = [
     company: "Facebook",
     description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
     technologies: ["Python", "Svelte", "Three.js", "Postgres"],
+    githubUrl: "https://github.com/Kisalay0298/voting-application",
+    liveUrl: "https://voting-app-kmxp.onrender.com/",
   },
   {
     year: "2020 - 2021",
@@ -40,32 +46,40 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
+    title: "Blogminia Website",
     image: project1,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+      "A blogging website with features like user authentication, blog management, categories, and admin panel for managing posts and users.",
+    technologies: ["HTML", "CSS", "JavaScript", "MySQL", "PHP"],
+    githubUrl: "https://github.com/Kisalay0298/voting-application",
+    liveUrl: "https://voting-app-kmxp.onrender.com/",
   },
   {
-    title: "Task Management App",
+    title: "Voting Application",
     image: project2,
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+      "A secure voting application with real-time vote counting, user authentication, and a dashboard for managing votes and users.",
+    technologies: ["ejs", "CSS", "Node.js", "MongoDB", "cloudinary"],
+    githubUrl: "https://github.com/Kisalay0298/voting-application",
+    liveUrl: "https://voting-app-kmxp.onrender.com/",
   },
   {
-    title: "Portfolio Website",
+    title: "Hospital Management System",
     image: project3,
     description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
+      "A hospital management system for managing patient records, doctor schedules, appointments, and hospital services.",
+    technologies: ["React", "Node.js", "MongoDB", "Express", "cloudinary", 'Razorpay'],
+    githubUrl: "https://github.com/Kisalay0298/voting-application",
+    liveUrl: "https://voting-app-kmxp.onrender.com/",
   },
   {
-    title: "Blogging Platform",
+    title: "Online Code Editor",
     image: project4,
     description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+      "An online code editor that allows users to write, test, and run code in multiple languages in real-time, with features like syntax highlighting and code execution.",
+    technologies: ["React", "Socket.io", "Node.js", "Express", "MySQL", "CodeMirror"],
+    githubUrl: "https://github.com/Kisalay0298/voting-application",
+    liveUrl: "https://voting-app-kmxp.onrender.com/",
   },
 ];
 
